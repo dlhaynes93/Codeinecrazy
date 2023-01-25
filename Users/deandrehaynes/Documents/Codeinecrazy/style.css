@@ -1,0 +1,54 @@
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+
+.inline-block {
+    display: flex;
+    background-color: white;
+    padding: 0px;
+  }
+
+  .navop {
+    align-items: flex-end;
+  }
+
+.logo {
+    height: 120px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: flex-start;
+  }
+
+.Heroimgpic {
+    height: 850px;
+    width: 1320px;
+    justify-content: center;
+}
+
+.button{
+  color: grey;
+  cursor: pointer;
+  font-size: 10px;
+  text-align: center;
+  padding: 15px;
+  width: 70px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: black;
+  transition: all;
+}
+
+.button:hover {
+  background-color: rgb(78, 85, 67);
+  transform: scale(2)
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    height: 100px;
+  }
